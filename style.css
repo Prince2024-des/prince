@@ -1,2 +1,97 @@
 
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* margin-top: 4rem; */
+    background-color: antiquewhite;
+    height: 100vh;
+
+}
+
+
+.container h1{
+    font-weight: 700;
+    font-size: 25px;
+    /* color: brown; */
+    animation-name: blink;
+    animation-duration: 1s;
+    animation-timing-function: 0s;
+}
+
+
+.container h1:hover{
+    color: goldenrod;
+    /* transform: translateY(-200px); */
+    /* transform: translateY(blink); */
+    
+}
+
+
+/* @keyframes blink{
+    
+} */
+
+
+
+
+
+
+.container #inputText{
+    padding: 5rem;
+    margin-top: 10px;
+    border: 2px solid #000000;
+    border-radius: 5px;
+
+}
+
+.container #inputText:hover{
+    background-color: #000000;
+    color: #FFFFFf;
+}
+
+
+
+.container button{
+    padding: 10px;
+    border-radius: 20px;
+    margin: 2rem 0 1rem 0;
+}
+
+.container   button:hover{
+    background-color: #000000;
+}
+
+
+.container  #countvowels{
+    font-weight: 700;
+    font-size: 20px;
+}
+
+
+.container  #countvowels:hover{
+    color: goldenrod;
+}
+
+
+
+.container #result{
+    font-weight: 700;
+    font-size: 20px;
+    margin: 1px;
+}
+
+.container #result:hover{
+    color: goldenrod;
+}
