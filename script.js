@@ -19,10 +19,11 @@
     const user_input = inputText.value;
     const vowelCount = isvowel(user_input);
     result.innerHTML = `the number of vowels: ${vowelCount}`;
+     return reset()
  }
-
+ 
 
 
  function reset() {
-    textInput.value = ""
+    inputText.value = ""
  }

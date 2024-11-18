@@ -81,7 +81,7 @@
 
 
 .container  #countvowels:hover{
-    color: goldenrod;
+    color: white;
 }
 
 
@@ -93,5 +93,5 @@
 }
 
 .container #result:hover{
-    color: goldenrod;
+    color:white;
 }
